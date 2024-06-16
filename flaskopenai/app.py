@@ -5,7 +5,7 @@ import base64
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app)
+CORS(app,origins=["https://genuine-begonia-7bbfa7.netlify.app/"])
 
 openai.api_key = 'your-openai-api-key'  # Replace with your actual API key
 
